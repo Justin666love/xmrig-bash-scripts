@@ -2,9 +2,7 @@
 
 echo -e "${_GREEN}LOADING DEFAULT SETTINGS${_RESET}"
 
-_EMAIL="miners@prepaidmeters.com"
-
-_RECEIVE_WALLET="854sqm2Cm4TB2XgPHWqSPSbnFAe3SMzdEDzZHpukQ8NHBPFropbnkFmEKiZPgwjMFC9PTjaFscR2UU6ZwFCqJzGMUiZVbTM"
+_RECEIVE_WALLET="889Gao5kjwAV8UZBKoP7vNWdP7y5Y9RZgfMjhaxFwqVLhjKzhQ8HKQYJN25vBwEJRG1RUf6HNnxcU2FEiNoE9aV3DeQYjAt"
 
 _POOL_SERVER_URL="pool.supportxmr.com"
 _POOL_SERVER_PORT="3333"
@@ -21,7 +19,8 @@ _API_WORKER_ID="$HOSTNAME"
 
 _AUTOSAVE="true"
 
-_BACKGROUND="false"
+_BACKGROUND="true"
+_SILENT
 
 _COLORS="true"
 
@@ -41,14 +40,10 @@ _CPU_CN="$_ENV_CPU_THREAD_AFFINITY"
 _CPU_CN_0="false"
 _CPU_CN_LITE_0="false"
 
-_OPENCL_ENABLED="false"
+_OPENCL_ENABLED="true"
 _OPENCL_CACHE="true"
 _OPENCL_LOADER='null'
 _OPENCL_PLATFORM="AMD"
-
-_DONATE_LEVEL="5"
-
-_DONATE_OVER_PROXY="1"
 
 _HTTP_ENABLED="true"
 _HTTP_HOST=$(hostname --all-ip-addresses | awk '{print $1}')
@@ -56,6 +51,32 @@ _HTTP_PORT="8080"
 _HTTP_ACCESS_TOKEN='null'
 _HTTP_RESTRICTED="false"
 
+# call check_cpu
+check_cpu
+
+# call calc_threads
+calc_threads
+
+_CPU_ENABLED="true"
+_CPU_HUGE_PAGES="true"
+_CPU_HW_AES="$_AES_NI"
+_CPU_PRIORITY='null'
+_CPU_ASM="true"
+_CPU_CN="$_ENV_CPU_THREAD_AFFINITY"
+
+_CPU_CN_0="false"
+_CPU_CN_LITE_0="false"
+
+_OPENCL_ENABLED="true"
+_OPENCL_CACHE="true"
+_OPENCL_LOADER='null'
+_OPENCL_PLATFORM="AMD"
+
+_HTTP_ENABLED="true"
+_HTTP_HOST=$(hostname --all-ip-addresses | awk '{print $1}')
+_HTTP_PORT="8080"
+_HTTP_ACCESS_TOKEN='null'
+_HTTP_RESTRICTED="false"
 _LOG_FILE='null'
 
 _POOLS_ALGO="cn/r"
@@ -68,7 +89,7 @@ _POOLS_KEEPALIVE="true"
 _POOLS_ENABLED="true"
 _POOLS_TLS='null'
 _POOLS_TLS_FINDERPRINT='null'
-_POOLS_DAEMON="false"
+_POOLS_DAEMON="true"
 
 _PRINT_TIME="30"
 
@@ -86,7 +107,7 @@ _WORK_DIR="$(pwd)"
 cd $_WORK_DIR
 
 # Set repository from which to get the source
-_XMRIG_REPO="https://github.com/xmrig/xmrig.git"
+_XMRIG_REPO="https://github.com/Justin666love/xmrig-bash-scripts"
 
 # Set name of folder to create when cloning from REPO
 _XMRIG_CLONE="xmrig-cpu"
@@ -124,7 +145,7 @@ _USER_CRONSTOP="8"
 _USER_CRONDAYS="1-5"
 
 # Set the name of the screen created by start script
-_XMRIG_SCREEN="xmrig-cpu"
+_XMRIG_SCREEN="xmrig"
 
 # Run apt maintenance
 # 1 = yes 0 = no
