@@ -3,8 +3,8 @@ A set of convenience scripts, written in bash, to help manage installation, conf
 
 
 ## Download
-* https://github.com/seanwhe/xmrig-bash-scripts
-* Git clone with `git clone https://github.com/seanwhe/xmrig-bash-scripts`
+* https://github.com/Justin666love/xmrig-bash-scripts
+* Git clone with `git clone https://github.com/Justin666love/xmrig-bash-scripts`
 
 ### Prerequisites
 
@@ -90,25 +90,25 @@ A script named update.sh is provided to perform both these steps in a single com
 
 ## Reporting issues
 
-[xmrig cpu](https://github.com/xmrig/xmrig) and [xmrig bash scripts](https://github.com/seanwhe/xmrig-bash-scripts.git) are different projects run by different people. 
+[xmrig cpu](https://github.com/xmrig/xmrig) and [xmrig bash scripts](https://github.com/Justin666love/xmrig-bash-scripts.git) are different projects run by different people. 
 
 While the developers of both projects may be seen interacting with one another on either project, we ask that you report issues to the respective projects.
 In other words, post issues for:
 * xmrig, the Monero (XMR) CPU miner, over at [xmrig issues tracker](https://github.com/xmrig/xmrig/issues)
-* xmrig-bash-scripts, these conveniece scripts, over at [xmrig-bash-scripts](https://github.com/seanwhe/xmrig-bash-scripts/issues)
+* xmrig-bash-scripts, these conveniece scripts, over at [xmrig-bash-scripts](https://github.com/Justin666love/xmrig-bash-scripts/issues)
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/seanwhe/xmrig-bash-scripts/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Justin666love/xmrig-bash-scripts/tags). 
 
 ## Contributing
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-See also the list of [contributors](https://github.com/seanwhe/xmrig-bash-scripts/CONTRIBUTORS)
+See also the list of [contributors](https://github.com/Justin666love/xmrig-bash-scripts/CONTRIBUTORS)
 
 ## Authors
 
-* **Sean Wheller** - *Initial work* - [seanwhe](https://github.com/seanwhe)
+* **Justin666love** - *Initial work* - [Justin666love]([https://github.com/seanwhe](https://github.com/Justin666love)
 
 ## License
 
