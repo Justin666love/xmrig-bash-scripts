@@ -29,16 +29,16 @@ Some knowledge of:
 1. Install git.
    `sudo apt install git`
 1. Clone this project.
-   `git clone https://github.com/seanwhe/xmrig-bash-scripts`
+   `git clone https://github.com/Justin666love/xmrig-bash-scripts`
 1. Change into the cloned directory. 
    `cd xmrig-bash-scripts`
 1. Run the install script
    `./install.sh`
 1. When prompted: "Enter your own settings?" enter 'y'es.
 1. Enter values for your:
-   1. Pool server URL
-   1. Pool server TCP port
-   1. Receive wallet address
+   1. Pool server URL 
+   1. Pool server TCP port 
+   1. Receive wallet address 
    1. Email address
    1. Miner identifier name
 1. After install is complete. Attach to the screen session created during the installation.
@@ -108,7 +108,7 @@ See also the list of [contributors](https://github.com/Justin666love/xmrig-bash-
 
 ## Authors
 
-* **Justin666love** - *Initial work* - [Justin666love]([https://github.com/seanwhe](https://github.com/Justin666love)
+* **Justin666love** - *Initial work* - [Justin666love]([https://github.com/Justin666love](https://github.com/Justin666love)
 
 ## License
 
